@@ -1,0 +1,3 @@
+include ':Interfaceprogram'
+include ':app'
+rootProject.name = "InterfacePractice"
