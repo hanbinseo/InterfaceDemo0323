@@ -1,6 +1,6 @@
 package android.studio.practice.interfaceprogram;
 
-public class Country {
+public class Country implements Measurable{
     private double area;
     private String country;
 
@@ -10,10 +10,9 @@ public class Country {
     }
 
     public Country() {
-        return;
     }
 
-    public  double getArea(){
+    public  double getMeasure(){
         return  area;
     }
 
